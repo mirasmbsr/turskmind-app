@@ -4,7 +4,7 @@ import pandas as pd
 import random
 
 # Set page configuration for a white theme and compact layout
-st.set_page_config(page_title="TurskMind 🌟", page_icon="🪔", layout="centered")
+st.set_page_config(page_title="TurksMind 🌟", page_icon="🪔", layout="centered")
 
 # Custom CSS for pure white background, larger interface, and dense design
 st.markdown("""
@@ -23,11 +23,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # App title with emojis
-st.title("TurskMind: Tüürk Wellness 🌄🪔")
+st.title("TurksMind: Tüürk Wellness 🌄🪔")
 st.markdown("Discover Tüürk-inspired wellness to reduce stress and find balance! 🚪✨")
 
 # Sidebar for navigation with emojis
-st.sidebar.header("TurskMind Menu 🧭")
+st.sidebar.header("TurksMind Menu 🧭")
 page = st.sidebar.radio("Choose a section", ["Practices 🧘‍♀️", "Affirmations 🌱", "Progress 📊", "About ℹ️"])
 
 # Practices Section
@@ -133,9 +133,9 @@ elif page == "Progress 📊":
 
 # About Section
 else:
-    st.header("About TurskMind ℹ️")
+    st.header("About TurksMind ℹ️")
     st.markdown("""
-        TurskMind is your gateway to wellness inspired by Tüürk culture, uniting traditions from Kazakhstan, Turkey, Uzbekistan, Kyrgyzstan, Azerbaijan, and Turkmenistan. 🌍  
+        TurksMind is your gateway to wellness inspired by Tüürk culture, uniting traditions from Kazakhstan, Turkey, Uzbekistan, Kyrgyzstan, Azerbaijan, and Turkmenistan. 🌍  
         Enjoy **meditations** with Altai serenity, **breathing exercises** with Pamir winds, and **micro-rituals** like gratitude and affirmations rooted in Tüürk wisdom. 🧘‍♀️🙏  
         Reduce stress, enhance focus, and connect with your heritage! 🎶✨
     """)
